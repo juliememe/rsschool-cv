@@ -1,14 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="normalize.css".css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="icon" href="favi.svg" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>Iuliia Mazaeva CV</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1>Iuliia Mazaeva</h1>
+        <div class="sub-header">
+          <div class="avatar">
+            <img src="avatar.jpg" alt="avatar" class="avatar__image" />
+          </div>
+          <div class="info">
+            <p class="info__place">
+              <a href="https://goo.gl/maps/CwN5bn7jXdR6kncW6"
+                >Saratov, Russia ⚐</a
+              >
+            </p>
+            <ul class="info__data">
+              <li><b>Mob:</b> +7 (963) 112-11-10</li>
+              <li>
+                <b>E-mail:</b>
+                <a href="mailto:ulie_meme@mail.ru">julie_meme@mail.ru</a>
+              </li>
+              <li>
+                <b>Skype:</b> <a href="”Skype:julie_meme?chat”">julie_meme</a>
+              </li>
+              <li>
+                <b>Telegram: </b
+                ><a href="tg://resolve?domain=<juliememe>">@juliememe</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="summary">
+        <div class="container">
+          <h2>Summary</h2>
+          <p>
+            Have an open-minded point of view to the world and ideas. Addicted
+            to learning new skills and information. Love to work with visual
+            components, that's why UI, UX & Front-end look really interesting to
+            me.
+          </p>
+          <p>
+            Looking for to try myself in this new field of IT-world and to
+            create something really meaningful. Ready to improve personal and
+            professional skills to achieve the goal.
+          </p>
+        </div>
+      </section>
+      <section class="skills">
+        <div class="container">
+          <h2>Skills</h2>
+          <ul class="skills__list">
+            <li>★★★☆☆ HTML/CSS</li>
+            <li>★★★☆☆ SCSS</li>
+            <li>★★★☆☆ Git</li>
+            <li>★★★☆☆ Vsiual Studio Code</li>
+            <li>★★★★☆ Photoshop, Figma</li>
+            <li>★★☆☆☆ Agile/SCRUM/Trello</li>
+            <li>★★☆☆☆ TypeScript</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="code-samples">
+        <div class="container">
+          <h2>Code Sample</h2>
+          <div class="code">
+            <code>
+              renderAddMediaButton() { const buttonAdd =
+              renderElement(this.rightContainer,
+              'button','wrapper-user-login']);
+              buttonAdd.addEventListener('click', this.renderFormUploadMedia);
+              buttonAdd.title = 'Add song'; buttonAdd.innerHTML =
+              SVG_SPRITE.ADD; }
+            </code>
+          </div>
+        </div>
+      </section>
+      <section class="work-experience">
+        <div class="container">
+          <h2>Work Experience</h2>
+          <ul class="work-experience__list">
+            <li>
+              <b>May, 2016 - Present - Freelance Photographer</b>
+              <ul>
+                <li>★ creating concepts, ideas</li>
+                <li>
+                  ★ post production process, working with graphic design
+                  programs
+                </li>
+                <li>
+                  ★ orginizing and administrating all the process of
+                  photosession
+                </li>
+                <li>
+                  ★ working with local and foreign Magazines, Brands, Stock
+                  Owners
+                </li>
+              </ul>
+            </li>
+            <li>
+              <b>May, 2011 - 2016 - Journalist</b>
+              <ul>
+                <li>★ looking for information</li>
+                <li>★ writting articles</li>
+                <li>★ taking interviews</li>
+                <li>★ creating local mass-media</li>
+                <li>★ working with designers, business owners, editors</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="education">
+        <div class="container">
+          <h2>Education</h2>
+          <ul class="education__list">
+            <li>RS School - Front-end development</li>
+            <li>
+              Faculty of Philology and Journalism of the Saratov State
+              University
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="language">
+        <div class="container">
+          <h2>Languages</h2>
+          <ul class="language__list">
+            <li><b>Russian</b> - Native</li>
+            <li><b>English</b> - B2 level</li>
+            <li><b>Spanish</b> - A1 level</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    </body>
 </html>

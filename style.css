@@ -1,0 +1,118 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #E1E3F9;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  
+  .container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 40px;
+    margin-top: 20px;
+    -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  
+  h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  p {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  p::-moz-selection {
+    background: #fae996;
+  }
+  
+  p::selection {
+    background: #fae996;
+  }
+  
+  ul {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+  }
+  
+  li::-moz-selection {
+    background: #fae996;
+  }
+  
+  li::selection {
+    background: #fae996;
+  }
+  
+  .info {
+    padding-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .info__place, .info__data {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .info__place a, .info__data a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .info__place a:hover, .info__data a:hover {
+    border-bottom: 1px solid black;
+  }
+  
+  .sub-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .sub-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .avatar__image {
+    border-radius: 10px;
+    width: 200px;
+  }
+  
+  .summary p {
+    padding-left: 40px;
+  }
+  
+  .code {
+    background-color: #f5eeee;
+    font-size: 16px;
+    padding: 20px;
+  }
+  
+  .code p {
+    padding: 0;
+    margin: 0;
+  }
