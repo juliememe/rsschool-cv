@@ -1,1 +1,1 @@
-# *https://juliememe.github.io/rsschool-cv/cv*
+# *https://juliememe.github.io/rsschool-cv/*
