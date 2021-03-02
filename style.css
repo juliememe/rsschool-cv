@@ -1,118 +1,262 @@
 * {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: #E1E3F9;
-    font-size: 18px;
-    line-height: 30px;
-  }
-  
-  .container {
-    max-width: 800px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px 40px;
-    margin-top: 20px;
-    -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-  }
-  
-  h1 {
-    font-size: 60px;
-    text-align: center;
-  }
-  
-  p {
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  p::-moz-selection {
-    background: #fae996;
-  }
-  
-  p::selection {
-    background: #fae996;
-  }
-  
-  ul {
-    font-family: 'Roboto', sans-serif;
-    list-style: none;
-  }
-  
-  li::-moz-selection {
-    background: #fae996;
-  }
-  
-  li::selection {
-    background: #fae996;
-  }
-  
-  .info {
-    padding-top: 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  
-  .info__place, .info__data {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .info__place a, .info__data a {
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-  }
-  
-  .info__place a:hover, .info__data a:hover {
-    border-bottom: 1px solid black;
-  }
-  
-  .sub-header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    max-width: 500px;
-    width: 100%;
-  }
-  
-  .sub-header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  
-  .avatar__image {
-    border-radius: 10px;
-    width: 200px;
-  }
-  
-  .summary p {
-    padding-left: 40px;
-  }
-  
-  .code {
-    background-color: #f5eeee;
-    font-size: 16px;
-    padding: 20px;
-  }
-  
-  .code p {
-    padding: 0;
-    margin: 0;
-  }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: 600;
+  color: #464646;
+  font-size: 16px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h2 {
+  color: #252525;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Work Sans";
+  margin-top: 50px;
+}
+
+h3 {
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+h4 {
+  background-color: #FFC501;
+  height: 25px;
+  width: 90px;
+  text-align: center;
+  border-radius: 5px;
+  padding-top: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 30px 0 10px;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.work__dots {
+  color: #e4e2e2;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.work__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.work__title h4 {
+  margin: 10px 0;
+  width: 100%;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.work-experience h2 {
+  margin-top: 50px;
+}
+
+.name {
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: 100;
+  font-family: 'Work Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.first-name {
+  color: #252525;
+}
+
+.last-name {
+  color: #FFC501;
+}
+
+.profession {
+  padding-bottom: 90px;
+  font-size: 26px;
+}
+
+.right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #ffff;
+  padding: 60px;
+}
+
+.left-side {
+  padding: 60px;
+  min-width: 40%;
+  position: relative;
+}
+
+.left-side .circle {
+  position: absolute;
+}
+
+.article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  width: 1024px;
+  background-color: #f2f2f2;
+  -webkit-box-shadow: 5px 5px 20px 0px #8b8888;
+          box-shadow: 5px 5px 20px 0px #8b8888;
+  margin: 50px auto;
+  min-height: 1435px;
+  height: 100%;
+}
+
+.avatar {
+  width: 250px;
+  height: 250px;
+  border: 15px solid #ffff;
+  border-radius: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.avatar__img {
+  width: 100%;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.circle__container {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.contact {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.contact li {
+  padding-bottom: 15px;
+}
+
+.contact li a {
+  text-decoration: none;
+  color: #252525;
+}
+
+.contact svg {
+  width: 15px;
+  height: 15px;
+  fill: #FFC501;
+  margin-right: 15px;
+}
+
+.skills {
+  font-size: 16px;
+}
+
+.skills__list li {
+  padding-bottom: 10px;
+}
+
+.skills__circles {
+  padding-left: 10px;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.skills__circles li {
+  padding-bottom: 12.5px;
+}
+
+.skills .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.interests {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.interests ul {
+  -webkit-column-count: 2;
+          column-count: 2;
+}
+
+.interests li {
+  padding-bottom: 12px;
+}
+
+.interests svg {
+  width: 20px;
+  height: 20px;
+  fill: #FFC501;
+  margin-right: 10px;
+}
+
+.language {
+  font-weight: 400;
+}
+
+.language li {
+  padding-bottom: 5px;
+}
+
+.pet-projects a {
+  text-decoration: none;
+  color: #464646;
+}
+
+.pet-projects li {
+  padding-bottom: 10px;
+}
+
+.pet-projects .pet__dots {
+  font-size: 14px;
+  color: #FFC501;
+  margin-right: 10px;
+}
+
+.education a {
+  text-decoration: none;
+  color: #464646;
+}
+/*# sourceMappingURL=style.css.map */
