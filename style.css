@@ -77,7 +77,7 @@ h5 {
   margin-top: 50px;
 }
 
-.name {
+h1 {
   font-size: 56px;
   font-weight: 700;
   letter-spacing: 100;
@@ -90,14 +90,16 @@ h5 {
 
 .first-name {
   color: #252525;
+  font-size: 56px;
 }
 
 .last-name {
   color: #FFC501;
+  font-size: 56px;
 }
 
 .profession {
-  padding-bottom: 90px;
+  padding-bottom: 110px;
   font-size: 26px;
 }
 
